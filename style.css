@@ -1,0 +1,206 @@
+/* * {
+  border: 5px dashed slateblue;
+} */
+body {
+  margin: 0%;
+  height: 100vw;
+  background-color: #141414;
+}
+
+.Navbar {
+  width: 100%;
+  display: flex;
+  justify-content: normal;
+  height: 50px;
+  background-color: #141414;
+  box-shadow: 0px 10px 22px #ffffff05;
+  position: relative;
+  align-items: center;
+}
+
+.part1 {
+  display: flex;
+  align-self: center;
+  width: 2%;
+  height: 28%;
+  /* padding: 4%; */
+  margin: 1%;
+  padding-right: 2%;
+  padding-left: 4%;
+  background-image: url(WhiteToggleMenu.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  z-index: 1;
+}
+
+.part2 {
+  display: flex;
+  font-family: "Luckiest Guy", cursive;
+  height: 40%;
+  width: 12%;
+  color: #dc143c;
+  text-align: center;
+  margin: 2% 0 1% 0;
+}
+
+/* .part3 {
+  display: flex;
+  align-self: center;
+  background-color: rgb(0, 255, 174);
+  height: 100%;
+  width: 40%;
+} */
+
+/* .SearchTool {
+  height: 57%;
+  width: 36%;
+  background-image: url(RedSearchTool.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  align-self: center;
+  padding-top: 3%;
+} */
+
+
+/* .UserAvi {
+  height: 103%;
+  width: 66%;
+  border: solid purple 5px;
+  background-image: url(UserAvi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  align-self: center;
+  padding-top: 5%;
+} */
+
+.JumboTron {
+  display: flex;
+  height: 31%;
+  /* border: solid red 5px; */
+  width: 100%;
+  position: relative;
+  top: 5px;
+  justify-content: center;
+}
+
+.JumboTronPic {
+  display: flex;
+  height: 100%;
+  background-image: url(TheJoker.jpg);
+  background-size: contain;
+  z-index: 1;
+  background-repeat: no-repeat;
+  width: 55%;
+  background-origin: content-box;
+  align-self: center;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Arrow {
+  height: 10%;
+  width: 5%;
+  margin: 0 20px 0 20px;
+  z-index: 2;
+  margin: 10%;
+}
+
+.Right {
+  justify-self: right;
+  transform: rotate(180deg);
+}
+
+.TextTitle {
+  display: flex;
+  font-family: 'Russo One', sans-serif;
+  color: rgb(255, 239, 160);
+  width: 280px;
+  height: 69px;
+  justify-content: center;
+  align-self: flex-end;
+  padding: 4% 15% 4% 15%;
+  background-color: #04040490;
+  border-radius: 4px;
+  /* position: relative; */
+  font-size: 20px;
+  text-align: center;
+
+  /* right: 143px; */
+}
+
+.PicDots {
+  /* background-color: burlywood; */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Russo One', sans-serif;
+}
+
+.PicNumberIcon {
+  height: 53%;
+  width: 15%;
+  color: white;
+  margin: 1%;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 21px;
+  -webkit-text-stroke-width: thick;
+  margin: 1%;
+}
+
+@media only screen and (max-width: 1030px) {
+  body {
+    display: none;
+  }
+}
+
+.Thumbnail {
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  border: 4px solid red;
+  display: Column;
+}
+
+.BottomPic1 {
+  height: 20%;
+  width: 30%;
+  background-color: wheat;
+  padding: 1%;
+}
+
+.BottomPic2 {
+  height: 20%;
+  width: 30%;
+  background-color: wheat;
+  padding: 1%;
+  margin: 2% 0% 2% 0%;
+}
+
+.BottomPic3 {
+  height: 20%;
+  width: 30%;
+  background-color: wheat;
+  padding: 1%;
+  margin: 2% 0% 2% 0%;
+}
+
+.ArticleText {
+
+
+  height: 20%;
+  width: 30%;
+  background-color: wheat;
+  padding: 1%;
+  margin: 2% 0 2% 0;
+  justify-self: left;
+
+}
+
+.Bottom {
+  display: inline-block;
+  width: 100%;
+}
